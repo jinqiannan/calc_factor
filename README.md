@@ -1,7 +1,7 @@
 # calc_factor
 calculate input number's factor
 
-#使用
+# 使用
 + 安装express框架
 ```
   npm install express --save
