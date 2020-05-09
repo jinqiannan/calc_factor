@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/base.css">
+    <title>首页</title>
+</head>
+<body>
+    <div id="wrap">
+        <div class="index"><a href="/">点击返回首页</a></div>
+        <input type="text" name="number" id="number">
+        <input type="button" value="提交" id="btn"><br/>
+    </div>
+    <script>
+        btn.onclick = function(){
+            window.location.pathname = `/${number.value}`
+        }
+    </script>
+</body>
+</html>

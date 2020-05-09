@@ -1,0 +1,15 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "计算指定数字的因数",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jinqian",
+  "license": "ISC",
+  "devDependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1"
+  }
+}
